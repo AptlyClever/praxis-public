@@ -7,7 +7,7 @@
 | id | `imprint-praxis-object-type-translation-map` |
 | type | `praxis.imprint` |
 | status | `canonical` |
-| revision | `1-public` |
+| revision | `2-public` |
 | created | `2026-06-20` |
 | updated | `2026-06-20` |
 | product_area | `Praxis / Object model / Human and agent readability` |
@@ -38,6 +38,7 @@ Use these comparisons to orient, not to rename Praxis.
 
 | Object type | Industry terminology | Intent | Current functionality | Human-readable blurb |
 | --- | --- | --- | --- | --- |
+| **Signal** | Similar to product idea, discovery note, intake item, opportunity note, feedback item, backlog candidate, parking-lot note | Capture a low-authority idea, observation, or possibility before it becomes committed Praxis work. | Canonized object type. Use for random product/workflow ideas that should be preserved without interrupting current work. | Something worth not losing. A Signal records an idea for later triage, but capture alone does not commit the work or authorize action. |
 | **Campaign** | Similar to Linear Initiative, Jira Initiative / Advanced Roadmaps initiative, GitHub Project, Azure Epic / portfolio backlog | Coordinate a broad effort across multiple lanes, repos, agents, decisions, and outcomes. | Active object type. | The big mission. It explains what we are trying to accomplish, why it matters, what lanes exist, and what final success looks like. |
 | **Beacon** | Similar to a project dashboard, Linear Initiative overview/update, GitHub Project view, status report, roadmap health page | Give humans and agents a current-state navigation object for a Campaign or Strand. | Active object type. | Start here. A Beacon tells you where we are, what is active, what is complete, what is deferred, what evidence matters, and the next safe move. |
 | **Strand** | Similar to Linear Project, Jira Epic / Feature, Azure Feature / Epic, GitHub milestone or project slice | Define a bounded line or thread of work inside a Campaign. | Active object type; supersedes legacy Scheme for bounded work lines. | A major thread of the mission. A Strand is not the whole Campaign, but it is bigger than one concrete work unit. |
@@ -71,6 +72,8 @@ For a human or agent entering work midstream, use this order:
 5. **Directive** — what exactly was the agent told to do?
 6. **Praxis Record / Report / Readout** — what happened, what proved it, and what did we learn?
 
+For uncommitted ideas, start with **Signal** before the work enters the normal execution chain.
+
 Beacon is the front door. Directive is the work order. Praxis Record, Report, and Readout are the evidence trail.
 
 ## Why Praxis does not use generic industry names directly
@@ -79,6 +82,7 @@ Praxis borrows lessons from issue trackers, agile planning systems, project dash
 
 The core Praxis distinction is evidence-first agent/human continuity:
 
+- Signal captures a pre-planning idea or observation without granting authority.
 - Campaign frames the broad outcome.
 - Beacon orients the reader.
 - Strand scopes a meaningful line of work.
