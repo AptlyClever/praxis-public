@@ -72,6 +72,17 @@ For uncommitted ideas, start with Signal before entering the normal execution ch
 
 Beacon is the front door. Directive is the work order. Praxis Record, Report, and Readout are the evidence trail.
 
+## Evaluation hygiene
+
+Public Praxis evaluation runs should keep the evidence chain clean and public-safe:
+
+- State which local or public files were loaded or provided.
+- Distinguish model behavior from harness or tooling behavior.
+- Avoid private repos, connectors, web search, runtime operations, and sibling-directory inspection unless a Directive separately authorizes them.
+- Capture token, cost, and session evidence when available.
+- Record pre-run and post-run git status when local files are involved.
+- Remember that public Praxis is orientation canon only; it does not authorize private implementation work.
+
 ## Seed contents
 
 This initial public seed includes:
