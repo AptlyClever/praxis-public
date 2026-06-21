@@ -27,7 +27,7 @@ Praxis Public is not:
 ## Praxis lifecycle
 
 ```text
-Intent → Directive → Praxis Record → Implementation PR / Evaluation Run → Report / Readout → Review → Outcome
+Signal → triage → Intent → Directive → Praxis Record → Implementation PR / Evaluation Run → Report / Readout → Review → Outcome
 ```
 
 Relay may transport or archive workflow artifacts. Praxis owns the object model and evidence chain.
@@ -36,6 +36,7 @@ Relay may transport or archive workflow artifacts. Praxis owns the object model 
 
 | Kind | Meaning |
 | --- | --- |
+| Signal | Low-authority captured idea, observation, or possibility preserved for later triage |
 | Campaign | Broad coordinated effort spanning lanes, agents, repos, standards, and checkpoints |
 | Beacon | Current navigation, state, and evidence map for a Campaign or Strand |
 | Strand | Bounded line of work inside a Campaign |
@@ -66,6 +67,8 @@ For humans or agents entering a workstream midstream:
 4. Fiber — what concrete piece are we doing?
 5. Directive — what exactly was the agent told to do?
 6. Praxis Record / Report / Readout — what happened, what proved it, and what did we learn?
+
+For uncommitted ideas, start with Signal before entering the normal execution chain.
 
 Beacon is the front door. Directive is the work order. Praxis Record, Report, and Readout are the evidence trail.
 
