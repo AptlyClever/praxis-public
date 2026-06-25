@@ -1,89 +1,57 @@
-# Public / Private Praxis Boundary
+# Public / Private Boundary
 
-## Purpose
+Praxis operates as a two-layer model.
 
-This boundary protects private implementation work while still giving humans and agents a public-readable Praxis map.
+| Layer | Visibility | Purpose |
+| --- | --- | --- |
+| **Private Praxis** | Private | Full operational ledger: handoffs, reports, runtime notes, private repo references, agent traces, deploy context |
+| **Public Praxis** | Public | Sanitized durable workflow objects: object model, doctrines, imprints, campaign summaries, agent orientation prompts |
 
-Praxis Public should help readers understand the workflow model, vocabulary, and public-safe examples. It must not expose private operational details.
+## What is public-safe
 
-## Public Praxis may contain
+- Object kind definitions and lifecycle descriptions
+- Sanitized campaign and strand summaries
+- Agent orientation prompts for read-only comprehension
+- Doctrines and imprints without private runtime detail
+- Templates for Praxis objects
+- Current work summaries at metadata and purpose level
 
-Public Praxis may contain:
+## What is private-only
 
-- public workflow vocabulary,
-- object type definitions,
-- public-safe Campaign summaries,
-- public-safe Strand summaries,
-- public-safe Fiber summaries,
-- reusable Doctrines that do not reveal private implementation details,
-- Imprints explaining public-safe naming and workflow decisions,
-- observation-only Probes with no private host/runtime details,
-- agent evaluation prompts that do not require private access,
-- scrubbed examples.
-
-## Private Praxis retains
-
-Private Praxis remains the operational ledger for:
-
-- full Directives containing private task details,
-- Praxis Records preserving full instructions and execution evidence,
-- Reports with private paths, branches, PRs, runtime notes, logs, device state, validation artifacts, and risk details,
-- private repo names or implementation specifics when not intentionally public,
-- homelab/runtime/device/network/Docker details,
-- secrets, tokens, cookies, account identifiers, auth headers, or secret-adjacent configuration,
-- unfinished product work,
-- private vulnerability or risk details,
-- exact deployment or service-operation instructions that are not public-safe.
+- Full handoff artifacts with private task semantics
+- Reports containing exact private repo paths, LAN IPs, device names, Docker paths, service URLs, or runtime logs
+- Operational protocols for deploy, device, network, or Docker actions
+- Agent traces that reveal implementation details or private repo state
+- Secrets, tokens, credentials, cookies, auth headers, or account IDs
+- Objects referencing private vulnerabilities, unfinished product mechanics, or homelab topology
 
 ## Scrub checklist
 
-Before moving any Praxis content into this public surface, remove or generalize:
+Before publishing a Praxis object publicly, check for:
 
-- secrets, tokens, credentials, cookies, auth headers,
-- private service URLs,
-- exact LAN IP addresses,
-- hostnames and device names when not public-safe,
-- internal filesystem paths,
-- Docker compose paths, bind mounts, ports, and service topology,
-- runtime logs and proof outputs,
-- private issue, PR, branch, and commit references when not intentionally public,
-- user email addresses or personal identifiers,
-- commercially sensitive roadmap details,
-- security findings not already intended for public disclosure,
-- any operational instruction that would let a reader control private infrastructure.
+- Private repo names where public naming is not intentional
+- Exact LAN IP addresses (192.168.x.x, 10.x.x.x, 172.16-31.x.x)
+- Hostnames that reveal private infrastructure
+- Docker Compose paths and bind mounts
+- Service ports and internal service URLs
+- API keys, tokens, credentials, cookies, or auth headers
+- Device IDs or TV/room names if sensitive
+- Runtime proof logs and stack traces
+- Private issue/PR URLs when not intentionally public
+- User email addresses or personal identifiers
+- Commercially sensitive roadmap details
 
 ## Authority boundary
 
-Public Praxis is orientation. It does not grant authority.
+Public Praxis is orientation and context only.
 
-Nothing in this repository authorizes:
+- Agents reading Public Praxis may explain workflows and load object model context.
+- Agents reading Public Praxis may NOT modify private repos, deploy services, or execute runtime commands.
+- Implementation requires a private Directive from private Praxis.
+- Public Praxis does not substitute for private Praxis as the operational authority.
 
-- private repo access,
-- implementation changes,
-- PR merges,
-- deployments,
-- service restarts,
-- device operation,
-- network or Docker changes,
-- destructive actions,
-- publication of private material.
+## Publisher leak detection
 
-Any private operational work requires a separate bounded Directive and the appropriate private context.
-
-## Sync model
-
-Initial sync should be manual and curated.
-
-Recommended phases:
-
-1. Manual seed with small scrubbed object set.
-2. Agent read-only comprehension tests.
-3. Human review of public/private boundary performance.
-4. Manifested export candidates.
-5. Automation only after manual and manifest-based export are proven safe.
-
-## Rule of thumb
-
-If an object helps a public reader understand how Praxis thinks, it may belong here.
-
-If an object tells someone how Control Alt private systems actually work, how they are deployed, where they run, or what is currently broken, it belongs in private Praxis.
+The publisher runs conservative fail-closed checks before inclusion.
+Flagged content is excluded, not silently included.
+Limitations are recorded in the export report.

@@ -1,0 +1,158 @@
+# History Index
+
+Index of completed Praxis work units, readouts, and directives.
+Ordered by last-updated date (most recent first).
+
+## Completed fibers
+
+- **Axiom Owner Workbench Scope v0 Fiber** — Axiom / Praxis / Owner workflow (completed 2026-06-25)
+- **Axiom Page Template Audit v0** — Axiom / UI / Page templates (completed 2026-06-25)
+- **Praxis Eval DeepSeek V4 Flash Focused Live Run** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-25)
+- **Praxis Provider Model Evaluation Checkpoint** — Praxis / Model Evaluation / Evidence Synthesis (completed 2026-06-25)
+- **Praxis Eval DeepSeek Run Action Readiness** — Praxis / Model Evaluation / Execution Action Readiness (completed 2026-06-24)
+- **Praxis Eval Rollup Coverage Reconciliation** — Praxis / Model Evaluation / Evidence Rollup (completed 2026-06-24)
+- **Praxis Provider Candidate Comparison Readout** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-24)
+- **Axiom Praxis Campaign Cockpit v0** — Axiom / Praxis / Campaign cockpit (completed 2026-06-23)
+- **Axiom Project/Repo Registry Consumption (Design)** — Axiom / Praxis / Execution Workflow (completed 2026-06-23)
+- **Control Alt Project/Repo Registry v1 (Design)** — Praxis / Object model / Project identity (completed 2026-06-23)
+- **Operator Identity & Merge Authorization Cleanup (Governance)** — Praxis / Governance / Operator authorization (completed 2026-06-23)
+- **Praxis Eval Comparison Rollup** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-23)
+- **Praxis Execution Action Axiom Artifact List — Design v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-23)
+- **Praxis Execution Action Axiom Artifact List v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-23)
+- **Praxis Execution Action Axiom Page Surface v0** — Axiom / Execution Workflow / Page Surface (completed 2026-06-23)
+- **Praxis Execution Action Axiom Runtime Roots v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-23)
+- **Praxis Execution Action Axiom Target Repo Access — Design** — Axiom / Execution Workflow / Page Surface (completed 2026-06-23)
+- **Terminal SSH Command Packet Boundary** — Praxis / Operator Workflow / dev-ubuntu (completed 2026-06-23)
+- **Praxis Codex Comment Fixups** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Apply Gate v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Approval Events v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Axiom Card Contract v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Axiom Card Live Artifact Source — Design v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Axiom Card Live Artifact Source v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Axiom Card v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Axiom Read Model v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Full Loop Dogfood v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action Model v0** — Praxis / Execution Workflow / Architecture (completed 2026-06-22)
+- **Praxis Execution Action State File v0** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Action v0 Milestone Checkpoint** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Execution Workflow v0 Docs** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Artifact Doctor** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Doctor JSON Output** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Ergonomics Hardening** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Normalized Artifact Consumption** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Post-Apply Ergonomics** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Local Worker Structured Review Outputs** — Praxis / Execution Workflow / Local Worker (completed 2026-06-22)
+- **Praxis Provider Output Contract Hardening** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-22)
+- **Praxis Eval Live Model Preflight** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-21)
+- **Praxis Eval Model Family Filtering** — Praxis / Model Evaluation / Direct API Execution (completed 2026-06-21)
+- **Praxis Object Canon Refresh** — Praxis / Object model / Workflow readability (completed 2026-06-20)
+- **Public Praxis Seed** — Praxis / Public access / Agent workflow replacement (completed 2026-06-20)
+
+## Completed readouts
+
+- **Axiom Owner Workbench Scope v0 Readout** — `pass` — Axiom / Praxis / Owner workflow (recorded 2026-06-25)
+- **Axiom Page Template Audit v0 Readout** — `pass` — Axiom / UI / Page templates (recorded 2026-06-25)
+- **Praxis Eval DeepSeek V4 Flash Focused Live Run v0 Readout** — `pass` — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-25)
+- **Praxis Provider Model Evaluation Checkpoint v0 Readout** — `pass` — Praxis / Model Evaluation / Evidence Synthesis (recorded 2026-06-25)
+- **Praxis Public Functional MVP v0** — `pass` — Praxis / Public access / Agent workflow replacement (recorded 2026-06-25)
+- **Praxis Public Generated Publisher v0 — Readout** — `pass` — Praxis / Public access / Publisher tooling (recorded 2026-06-25)
+- **Praxis Public Publisher v1 Summaries Readout** — `pass` — Praxis / Public access / Generated context (recorded 2026-06-25)
+- **Readout: Axiom Praxis Campaign Cockpit — Local Smoke (v0)** — `pass` — Axiom / Praxis / Campaign cockpit / Local verification (recorded 2026-06-24)
+- **Control Alt Object Model — Shape Draft (v0)** — Control Alt / Product Language / Naming (recorded 2026-06-24)
+- **Control Alt Object Naming — Audit Frame (v0)** — Control Alt / Product Language / Naming (recorded 2026-06-24)
+- **Control Alt Object Naming — Convergence (v0)** — Control Alt / Product Language / Naming (recorded 2026-06-24)
+- **Control Alt Object Naming — Exploration (v0)** — Control Alt / Product Language / Naming (recorded 2026-06-24)
+- **Control Alt Object Naming — Exploration (v1)** — Control Alt / Product Language / Naming (recorded 2026-06-24)
+- **Praxis Eval DeepSeek Run Action Readiness v0 Readout** — `pass` — Praxis / Model Evaluation / Execution Action Readiness (recorded 2026-06-24)
+- **Praxis Eval Rollup Coverage Reconciliation v0 Readout** — `pass` — Praxis / Model Evaluation / Evidence Rollup (recorded 2026-06-24)
+- **Praxis Provider Candidate Comparison v0 Readout** — `pass` — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-24)
+- **Readout: Axiom Praxis Campaign Cockpit v0** — Axiom / Praxis / Campaign cockpit (recorded 2026-06-23)
+- **Axiom Registry Mirror Deployment Verification** — `pass` — Axiom / Praxis / Execution Workflow (recorded 2026-06-23)
+- **Praxis Execution Action Axiom Artifact List — Design v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-23)
+- **Praxis Execution Action Axiom Artifact List v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-23)
+- **Praxis Execution Action Axiom Page Surface v0 Readout** — `pass` — Axiom / Execution Workflow / Page Surface (recorded 2026-06-23)
+- **Praxis Execution Action Axiom Runtime Roots v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-23)
+- **Praxis Execution Action Axiom Target Repo Access — Design Readout** — `pass` — Axiom / Execution Workflow / Page Surface (recorded 2026-06-23)
+- **Terminal SSH Command Packet Boundary** — `pass` — Praxis / Operator Workflow / dev-ubuntu (recorded 2026-06-23)
+- **Praxis Codex Comment Fixups v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Apply Gate v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Approval Events v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Axiom Card Contract v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Axiom Card Live Artifact Source — Design v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Axiom Card Live Artifact Source v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Axiom Card v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Axiom Read Model v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Full Loop Dogfood v0 Readout** — `pass` — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action Model v0 Readout** — Praxis / Execution Workflow / Architecture (recorded 2026-06-22)
+- **Praxis Execution Action State File v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Action v0 Milestone Checkpoint Readout** — `pass` — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Workflow v0 Docs v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Execution Workflow v0 Dogfood Readout** — `pass` — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Live Provider Contract Validation 2026-06-22 Readout** — `pass` — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-22)
+- **Praxis Local Worker Artifact Doctor v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Doctor JSON Output v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Ergonomics Hardening v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Full Loop Dogfood v0 Readout** — `pass-with-friction-notes` — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Normalized Artifact Consumption v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Post-Apply Ergonomics v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Local Worker Structured Review Outputs v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-22)
+- **Praxis Provider Output Contract Hardening v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-22)
+- **Praxis Eval Comparison Rollup v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Praxis Eval Live Model Preflight v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Praxis Eval Model Family Filtering v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Praxis Eval Quality Scenarios v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Praxis Eval Usage Efficiency v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Praxis Exec Direct API Real Implementation Readout** — `pass-real-repo-bounded-implementation` — Praxis / Mara / Direct API execution / Cost control (recorded 2026-06-21)
+- **Praxis Local Worker Command v0 Readout** — Praxis / Execution Workflow / Local Worker (recorded 2026-06-21)
+- **Praxis Native Model Retrieval Fireworks Discovery v0 Readout** — Praxis / API execution / Model registry (recorded 2026-06-21)
+- **Praxis Self-Hosted Model Eval Pack v0 Readout** — Praxis / Model Evaluation / Direct API Execution (recorded 2026-06-21)
+- **Aider Kimi Public Praxis One-File Docs Patch** — `invalid-no-local-file-change` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **Aider Public Praxis Read-Only Comprehension** — `pass-with-untracked-history-artifacts` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **ChatGPT Public Praxis Read-Only Comprehension** — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **Claude Public Praxis Read-Only Comprehension** — `pass-with-transcript-format-caveat` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **Codex Public Praxis Read-Only Comprehension** — `pass` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **Kimi One-Off Public Praxis One-File Docs Patch** — `pass-public-readme-committed` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+- **Kimi Public Praxis Read-Only Comprehension** — `pass-with-environment-caveat` — Praxis / Public access / Agent evaluation (recorded 2026-06-20)
+
+## Completed directives
+
+- **Axiom Owner Workbench Scope v0 Directive** — Axiom / Praxis / Owner workflow
+- **Axiom Page Template Audit v0 — Directive** — Axiom / UI / Page templates
+- **Axiom Praxis Campaign Cockpit — Local Smoke (v0)** — Axiom / Praxis / Campaign cockpit / Local verification
+- **Directive: Axiom Praxis Campaign Cockpit v0** — Axiom / Praxis / Campaign cockpit
+- **Praxis Codex Comment Fixups v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Eval Comparison Rollup v0** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Eval DeepSeek Run Action Readiness — Directive (v0)** — Praxis / Model Evaluation / Execution Action Readiness
+- **Praxis Eval DeepSeek V4 Flash Focused Live Run — Directive (v0)** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Eval Live Model Preflight v0** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Eval Model Family Filtering v0** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Eval Rollup Coverage Reconciliation — Directive (v0)** — Praxis / Model Evaluation / Evidence Rollup
+- **Praxis Eval Usage Efficiency v0** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Execution Action Apply Gate v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Approval Events v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Artifact List — Design v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Artifact List v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Card Contract v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Card Live Artifact Source — Design v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Card Live Artifact Source v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Card v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Page Surface v0 Directive** — Axiom / Execution Workflow / Page Surface
+- **Praxis Execution Action Axiom Read Model v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Runtime Roots v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Axiom Target Repo Access — Design Directive** — Axiom / Execution Workflow / Page Surface
+- **Praxis Execution Action Full Loop Dogfood v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action Model v0 Directive** — Praxis / Execution Workflow / Architecture
+- **Praxis Execution Action State File v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Action v0 Milestone Checkpoint v0 Directive** — Praxis / Execution Workflow / Local Worker
+- **Praxis Execution Workflow v0 Docs v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Artifact Doctor v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Command v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Doctor JSON Output v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Ergonomics Hardening v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Normalized Artifact Consumption v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Post-Apply Ergonomics v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Local Worker Structured Review Outputs v0** — Praxis / Execution Workflow / Local Worker
+- **Praxis Provider Candidate Comparison Readout v0** — Praxis / Model Evaluation / Direct API Execution
+- **Praxis Provider Model Evaluation Checkpoint — Directive (v0)** — Praxis / Model Evaluation / Evidence Synthesis
+- **Praxis Provider Output Contract Hardening v0** — Praxis / Model Evaluation / Direct API Execution
+- **Terminal SSH Command Packet Boundary** — Praxis / Operator Workflow / dev-ubuntu
