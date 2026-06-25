@@ -6,19 +6,26 @@
 | --- | --- |
 | id | `readout-mara-public-praxis-functional-mvp-smoke` |
 | type | `praxis.readout` |
-| status | `complete` |
-| result | `partial-pass` |
-| revision | `1-public` |
+| status | `superseded` |
+| result | `invalid-contaminated` |
+| revision | `2-public` |
 | created | `2026-06-25` |
 | updated | `2026-06-25` |
 | product_area | `Praxis / Public access / Functional MVP` |
 | source_scope | `public-safe smoke result` |
+| superseded_by | `readout-public-praxis-functional-mvp-independent-agent` |
 
 ## Purpose
 
-Record a public-safe smoke test for the Praxis Public functional MVP startup path.
+Record and correct the first Mara / ChatGPT smoke test for the Praxis Public functional MVP startup path.
 
-This is not final MVP certification. It is evidence that the new public files can orient an agent toward the current workflow target while preserving the public/private boundary.
+## Correction
+
+This result must not count as MVP evidence.
+
+The smoke test was performed inside the same ChatGPT conversation that helped design and create the Functional MVP artifacts. That means the test was context-contaminated: the model had access to conversation history and project framing beyond the public repo branch and startup prompt.
+
+A contaminated test can show that the written files are internally coherent, but it cannot prove reliable public-context retrieval by a fresh agent.
 
 ## Prompt used
 
@@ -32,7 +39,7 @@ This is not final MVP certification. It is evidence that the new public files ca
 - `prompts/agent-functional-mvp-startup.md`
 - `objects/strands/praxis-direct-api-execution-harness.md`
 
-## Smoke answer summary
+## Original smoke answer summary
 
 Public context summary:
 
@@ -60,12 +67,22 @@ Request or load the private Praxis Directive and task packet before proposing or
 
 ## Result
 
-Partial pass.
+Invalid / contaminated.
 
-The public startup path can orient an agent toward the correct workflow and boundary. This run is only a Mara / ChatGPT smoke test; it still needs an independent agent run before claiming full functional MVP pass.
+The answer is plausible, but it is not independent evidence. It should not be used to claim functional MVP pass or partial-pass.
 
-## Follow-up required
+## Required replacement evidence
 
-- Run the same prompt with at least one independent implementation-capable agent.
-- Record whether it loads the public context reliably.
-- Record whether it keeps public orientation separate from private authority.
+Run the same prompt in a clean agent context that receives only:
+
+- the public repo branch,
+- the startup prompt path,
+- no private Praxis context,
+- no prior chat history,
+- no implementation repo context.
+
+Record whether the independent agent loads public context reliably and keeps public orientation separate from private authority.
+
+## Claude attempt note
+
+A Claude attempt was started but did not complete because the service returned a temporary server-side rate-limit error after listing one directory. That is an infrastructure/tooling block, not a Praxis Public comprehension result.
