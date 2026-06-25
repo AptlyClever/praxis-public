@@ -14,6 +14,20 @@ Praxis Public is:
 - a corpus for testing agent comprehension,
 - a bridge between human planning and agent execution.
 
+## Functional MVP focus
+
+Praxis Public is not done merely because a public seed exists.
+
+Functional MVP means this repo can help a fresh agent enter a real workflow safely:
+
+1. understand what Praxis Public is and how it works,
+2. retrieve context using a public startup / comprehension prompt,
+3. distinguish public orientation from private Praxis authority,
+4. connect public summaries to private Praxis through a reviewed export/link model,
+5. help with a real current workflow while refusing to infer private authorization.
+
+See `FUNCTIONAL_MVP.md` and `prompts/agent-functional-mvp-startup.md`.
+
 ## What this repo is not
 
 Praxis Public is not:
@@ -85,15 +99,18 @@ Public Praxis evaluation runs should keep the evidence chain clean and public-sa
 
 ## Seed contents
 
-This initial public seed includes:
+This public seed includes:
 
+- `FUNCTIONAL_MVP.md` — what functional MVP means for Praxis Public.
 - `PUBLIC_PRIVATE_BOUNDARY.md` — what belongs in public Praxis vs private Praxis.
 - `objects/imprints/praxis-object-type-translation-map.md` — human-readable translation map for Praxis object types.
 - `objects/strands/praxis-public-solution.md` — public-safe Strand summary for building this public layer.
+- `objects/strands/praxis-direct-api-execution-harness.md` — public-safe summary of the current execution-harness workflow target.
 - `objects/campaigns/control-alt-development-workflow-flexibility.md` — public-safe Campaign summary for agent/workflow flexibility.
 - `objects/doctrines/praxis-evidence-chain.md` — public-safe evidence-chain doctrine.
 - `objects/probes/public-praxis-readiness.md` — observation-only readiness probe for this public surface.
 - `prompts/agent-readonly-comprehension.md` — first read-only agent comprehension prompt.
+- `prompts/agent-functional-mvp-startup.md` — functional MVP startup prompt for real workflow orientation.
 
 ## Authority boundary
 
