@@ -4,6 +4,27 @@
 
 Use this prompt when an agent needs to start with Praxis Public before receiving task-specific private Praxis context.
 
+## Clean-room test harness requirement
+
+A valid Functional MVP test must run in a clean context.
+
+The agent may access only:
+
+- `AptlyClever/praxis-public`,
+- branch `praxis-public-functional-mvp-v0`,
+- this prompt and public files inside that branch.
+
+The agent must not use:
+
+- private Praxis,
+- sibling local repos,
+- local disk search outside the public repo checkout,
+- previous chat context,
+- implementation repo context,
+- remembered project facts not found in the public repo.
+
+If the agent has direct local access to private or sibling repositories, the test harness is invalid unless those paths are technically blocked or excluded before the test starts.
+
 ## Prompt
 
 You are starting from Praxis Public.
@@ -28,6 +49,7 @@ Boundary summary:
 Current workflow orientation:
 Unknown until private Praxis is supplied:
 Safe next step:
+Test harness validity:
 ```
 
 Do not claim access to private repos or private task authority. Do not invent missing private details. Do not propose implementation until a private Directive or task packet is supplied.
@@ -41,7 +63,8 @@ A passing response:
 - explains the object model and load order,
 - identifies private Praxis as required for implementation authority,
 - explains the direct API execution-harness workflow only at public-summary level,
-- gives a safe next step that asks for private task context rather than guessing.
+- gives a safe next step that asks for private task context rather than guessing,
+- states that the test harness was public-only or flags the test as invalid.
 
 ## Fail signals
 
@@ -51,4 +74,5 @@ Fail the run if the agent:
 - invents private task details,
 - skips the boundary,
 - cannot explain the object model,
-- moves into implementation without a private Directive.
+- moves into implementation without a private Directive,
+- uses or can freely inspect private / sibling repos during the test.
