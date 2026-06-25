@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-06-25T19:41:58.434330+00:00",
+  "source_commit": "9375315",
+  "source_branch": "main",
+  "active_campaigns": [
+    {
+      "id": "campaign-control-alt-development-workflow-flexibility",
+      "type": "praxis.campaign",
+      "title": "Campaign: Make the Control Alt Development workflow more flexible (cursor is dead)",
+      "status": "active",
+      "product_area": "Control Alt / Development Workflow / Agent Infrastructure",
+      "created": "2026-06-20",
+      "updated": "2026-06-20",
+      "source_path": "objects/campaigns/control-alt-development-workflow-flexibility.md",
+      "summary": "The Control Alt development workflow must stop depending on Cursor as the single implementation agent or workflow host."
+    }
+  ],
+  "active_strands": [
+    {
+      "id": "strand-axiom-owner-workbench",
+      "type": "praxis.strand",
+      "title": "Axiom Owner Workbench Strand",
+      "status": "active",
+      "product_area": "Axiom / Praxis / Owner workflow",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/strands/axiom-owner-workbench.md",
+      "summary": "This Strand tracks a continuing line of attention around making Axiom usable as an owner-facing operating surface for Praxis-backed Control Alt work."
+    },
+    {
+      "id": "strand-praxis-public-solution",
+      "type": "praxis.strand",
+      "title": "Praxis Public Solution",
+      "status": "active",
+      "product_area": "Praxis / Public access / Control Alt workflow",
+      "created": "2026-06-20",
+      "updated": "2026-06-23",
+      "source_path": "objects/strands/praxis-public-solution.md",
+      "summary": "Create a public-readable Praxis layer that improves Control Alt workflow continuity, agent review, and Mara/ChatGPT access without exposing private implementation repos, private handoffs, runtime reports, LAN/device details, or unfinished product code."
+    }
+  ],
+  "active_fibers_recent": [
+    {
+      "id": "fiber-praxis-public-functional-mvp",
+      "type": "praxis.fiber",
+      "title": "Praxis Public Functional MVP",
+      "status": "active",
+      "product_area": "Praxis / Public access / Agent workflow replacement",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/fibers/praxis-public-functional-mvp.md",
+      "summary": "Move Praxis Public from seed / proof-of-comprehension into a functional MVP that can support real Control Alt workflow. The MVP must reduce chat-memory drift, private-connector luck, and operator re-explanation."
+    },
+    {
+      "id": "fiber-praxis-public-generated-publisher-v0",
+      "type": "praxis.fiber",
+      "title": "Praxis Public Generated Publisher v0",
+      "status": "active",
+      "product_area": "Praxis / Public access / Generated context",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/fibers/praxis-public-generated-publisher-v0.md",
+      "summary": "Make Praxis Public a generated, public-safe projection of private Praxis rather than a manually maintained documentation repo."
+    }
+  ],
+  "active_fibers_older": [
+    {
+      "id": "fiber-praxis-eval-quality-scenario-pack",
+      "type": "praxis.fiber",
+      "title": "Praxis Eval Quality Scenario Pack",
+      "status": "active",
+      "product_area": "Praxis / Model Evaluation / Direct API Execution",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-eval-quality-scenario-pack.md",
+      "summary": "Add a small quality scenario pack to Praxis evals."
+    },
+    {
+      "id": "fiber-praxis-eval-quality-scenarios",
+      "type": "praxis.fiber",
+      "title": "Praxis Eval Quality Scenarios",
+      "status": "active",
+      "product_area": "Praxis / Model Evaluation / Direct API Execution",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-eval-quality-scenarios.md",
+      "summary": "Add an opt-in quality scenario pack to `praxis-eval`."
+    },
+    {
+      "id": "fiber-praxis-eval-usage-efficiency",
+      "type": "praxis.fiber",
+      "title": "Praxis Eval Usage Efficiency",
+      "status": "active",
+      "product_area": "Praxis / Model Evaluation / Direct API Execution",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-eval-usage-efficiency.md",
+      "summary": "Track token usage as part of model viability."
+    },
+    {
+      "id": "fiber-praxis-exec-direct-api-prototype",
+      "type": "praxis.fiber",
+      "title": "Praxis Exec Direct API Prototype Fiber",
+      "status": "active",
+      "product_area": "Praxis / Mara / Direct API execution / Cost control",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-exec-direct-api-prototype.md",
+      "summary": "Develop `praxis-exec` as a Praxis-owned local implementation harness that can use direct provider APIs as engines without replacing Cursor with another paid coding-agent wrapper."
+    },
+    {
+      "id": "fiber-praxis-local-worker-command",
+      "type": "praxis.fiber",
+      "title": "Praxis Local Worker Command",
+      "status": "active",
+      "product_area": "Praxis / Execution Workflow / Local Worker",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-local-worker-command.md",
+      "summary": "Replace fragile manual shell-packet workflows with a deterministic local worker command."
+    },
+    {
+      "id": "fiber-praxis-self-hosted-model-eval-pack",
+      "type": "praxis.fiber",
+      "title": "Praxis Self-Hosted Model Eval Pack",
+      "status": "active",
+      "product_area": "Praxis / Model Evaluation / Direct API Execution",
+      "created": "2026-06-21",
+      "updated": "2026-06-21",
+      "source_path": "objects/fibers/praxis-self-hosted-model-eval-pack.md",
+      "summary": "Make Praxis capable of running bounded AI model evaluation and implementation loops itself."
+    }
+  ],
+  "recent_readouts": [
+    {
+      "id": "readout-axiom-owner-workbench-scope-v0",
+      "type": "praxis.readout",
+      "title": "Axiom Owner Workbench Scope v0 Readout",
+      "status": "complete",
+      "product_area": "Axiom / Praxis / Owner workflow",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/readouts/axiom-owner-workbench-scope-v0.md"
+    },
+    {
+      "id": "readout-axiom-page-template-audit-v0",
+      "type": "praxis.readout",
+      "title": "Axiom Page Template Audit v0 Readout",
+      "status": "complete",
+      "product_area": "Axiom / UI / Page templates",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/readouts/axiom-page-template-audit-v0.md"
+    },
+    {
+      "id": "readout-praxis-eval-deepseek-v4-flash-focused-live-run-v0",
+      "type": "praxis.readout",
+      "title": "Praxis Eval DeepSeek V4 Flash Focused Live Run v0 Readout",
+      "status": "complete",
+      "product_area": "Praxis / Model Evaluation / Direct API Execution",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/readouts/praxis-eval-deepseek-v4-flash-focused-live-run-v0.md",
+      "summary": "The one authorized provider-backed live eval attempt against `accounts/fireworks/models/deepseek-v4-flash` is complete."
+    },
+    {
+      "id": "readout-praxis-provider-model-evaluation-checkpoint-v0",
+      "type": "praxis.readout",
+      "title": "Praxis Provider Model Evaluation Checkpoint v0 Readout",
+      "status": "complete",
+      "product_area": "Praxis / Model Evaluation / Evidence Synthesis",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/readouts/praxis-provider-model-evaluation-checkpoint-v0.md"
+    },
+    {
+      "id": "readout-praxis-public-functional-mvp-v0",
+      "type": "praxis.readout",
+      "title": "Praxis Public Functional MVP v0",
+      "status": "complete",
+      "product_area": "Praxis / Public access / Agent workflow replacement",
+      "created": "2026-06-25",
+      "updated": "2026-06-25",
+      "source_path": "objects/readouts/praxis-public-functional-mvp-v0.md",
+      "summary": "Praxis Public functional MVP work was started as an actual Praxis chain under the existing `strand-praxis-public-solution` Strand."
+    }
+  ]
+}

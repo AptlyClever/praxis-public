@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-06-25T19:41:58.435302+00:00",
+  "source_commit": "9375315",
+  "source_branch": "main",
+  "generator": "praxis-public-publish-v1",
+  "total_objects": 253,
+  "active_objects": 44,
+  "complete_objects": 147,
+  "by_kind": {
+    "beacon": {
+      "total": 2,
+      "active": 2,
+      "complete": 0
+    },
+    "campaign": {
+      "total": 1,
+      "active": 1,
+      "complete": 0
+    },
+    "directive": {
+      "total": 51,
+      "active": 9,
+      "complete": 40
+    },
+    "doctrine": {
+      "total": 18,
+      "active": 11,
+      "complete": 0
+    },
+    "fiber": {
+      "total": 51,
+      "active": 8,
+      "complete": 42
+    },
+    "imprint": {
+      "total": 24,
+      "active": 7,
+      "complete": 0
+    },
+    "probe": {
+      "total": 8,
+      "active": 0,
+      "complete": 1
+    },
+    "protocol": {
+      "total": 7,
+      "active": 3,
+      "complete": 0
+    },
+    "readout": {
+      "total": 68,
+      "active": 0,
+      "complete": 63
+    },
+    "signal": {
+      "total": 18,
+      "active": 15,
+      "complete": 0
+    },
+    "strand": {
+      "total": 5,
+      "active": 2,
+      "complete": 1
+    }
+  }
+}

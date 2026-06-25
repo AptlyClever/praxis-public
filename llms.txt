@@ -1,0 +1,55 @@
+# Praxis Public
+
+Generated: 2026-06-25T19:41:58.434718+00:00
+Source: commit `9375315` on `main`
+
+Praxis is the Control Alt workflow ledger.
+Praxis Public is the public-readable orientation layer — not the operational ledger.
+Private Praxis retains implementation and deployment authority.
+
+## Object kinds
+
+- **Signal**: Low-authority captured idea or observation preserved for later triage
+- **Campaign**: Coordinated multi-lane effort spanning agents, repos, and decision checkpoints
+- **Beacon**: Current navigation, state, and evidence map for a Campaign or Strand
+- **Strand**: A continuing line of attention kept open toward an outcome; may be active, paused, or completed
+- **Fiber**: Small identifiable work unit that advances a parent Strand
+- **Directive**: Instruction object: authorized action, explicit boundaries, validation expectations, stop conditions
+- **Readout**: Recorded result from a bounded evaluation run of an agent, provider, workflow, or related system
+- **Probe**: Reusable check — observation-first pass/fail evidence
+- **Protocol**: Repeatable procedure composed of steps an operator or agent can run
+- **Doctrine**: Reusable guidance that outlives a single task
+- **Imprint**: Durable rationale or decision trace
+
+## Active campaigns
+
+- **Campaign: Make the Control Alt Development workflow more flexible (cursor is dead)**
+  The Control Alt development workflow must stop depending on Cursor as the single implementation agent or workflow host.
+
+## Active strands
+
+- **Axiom Owner Workbench Strand** — Axiom / Praxis / Owner workflow
+  This Strand tracks a continuing line of attention around making Axiom usable as an owner-facing operating surface for Praxis-backed Control Alt work.
+- **Praxis Public Solution** — Praxis / Public access / Control Alt workflow
+  Create a public-readable Praxis layer that improves Control Alt workflow continuity, agent review, and Mara/ChatGPT access without exposing private implementation repos, private handoffs, runtime reports, LAN/device details, or unfinished product code.
+
+## Active fibers (recently updated)
+
+- **Praxis Public Functional MVP** — Praxis / Public access / Agent workflow replacement
+  Move Praxis Public from seed / proof-of-comprehension into a functional MVP that can support real Control Alt workflow. The MVP must reduce chat-memory drift, private-connector luck, and operator re-explanation.
+- **Praxis Public Generated Publisher v0** — Praxis / Public access / Generated context
+  Make Praxis Public a generated, public-safe projection of private Praxis rather than a manually maintained documentation repo.
+
+## Authority boundary
+
+- Reading: allowed for orientation and context.
+- Modifying private repos: NOT authorized from Public Praxis.
+- Deploying services: NOT authorized from Public Praxis.
+- Implementation: requires a private Directive from private Praxis.
+
+## Agent load order
+
+1. README.md
+2. PUBLIC_PRIVATE_BOUNDARY.md
+3. CURRENT_WORK.md
+4. prompts/agent-startup.md
