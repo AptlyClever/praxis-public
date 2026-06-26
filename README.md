@@ -50,8 +50,9 @@ Public Praxis is for orientation and context only.
 
 1. `README.md` — object model and authority boundary
 2. `PUBLIC_PRIVATE_BOUNDARY.md` — public/private split
-3. `CURRENT_WORK.md` — active work summary
-4. `prompts/agent-startup.md` — agent startup prompt
+3. `CURRENT_OPERATING_MODEL.md` — current authority model and component roles
+4. `CURRENT_WORK.md` — active work summary
+5. `prompts/agent-startup.md` — agent startup prompt
 
 ## Active campaigns
 
