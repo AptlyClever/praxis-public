@@ -51,5 +51,6 @@ Private Praxis retains implementation and deployment authority.
 
 1. README.md
 2. PUBLIC_PRIVATE_BOUNDARY.md
-3. CURRENT_WORK.md
-4. prompts/agent-startup.md
+3. CURRENT_OPERATING_MODEL.md
+4. CURRENT_WORK.md
+5. prompts/agent-startup.md
