@@ -18,9 +18,21 @@ including the purpose of active objects.
 - Implementation authority. You cannot deploy or apply from public context.
 - A substitute for private Directives. Implementation requires private Praxis.
 
+## Current authority model
+
+| Component | Role |
+| --- | --- |
+| **Private Praxis** | Workflow authority and evidence ledger. All Directives originate here. |
+| **Praxis Public** | Public-safe orientation only. No implementation authority. |
+| **Axiom Work Compass** | Intended owner-facing operating surface. Not current implementation authority. |
+| **ctrl-alt-standards** | Reference only unless private Praxis imports or points to it. |
+| **Handoff / Relay** | Compatibility only. Not the future workflow center. |
+
+See `CURRENT_OPERATING_MODEL.md` for the full authority map and agent rules.
+
 ## Your starting task
 
-1. Confirm you have loaded `README.md` and `PUBLIC_PRIVATE_BOUNDARY.md`.
+1. Confirm you have loaded `README.md`, `PUBLIC_PRIVATE_BOUNDARY.md`, and `CURRENT_OPERATING_MODEL.md`.
 2. Read `CURRENT_WORK.md` to understand active work and its purpose.
 3. Tell the operator what you understand about the current workflow state.
 4. Ask for a private Directive before proposing implementation.
